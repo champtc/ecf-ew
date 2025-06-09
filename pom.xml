@@ -61,7 +61,7 @@
 		<repository>
 			<id>txtractor-ew</id>
 			<name>GitHub Packages</name>
-			<url>https://maven.pkg.github.com/champtc/txtractor-ew</url>
+			<url>https://maven.pkg.github.com/champtc/ecf-ew</url>
 		</repository>
 	</distributionManagement>
 
