@@ -58,6 +58,14 @@
   </issueManagement>
 
 	<distributionManagement>
+		<repository>
+			<id>txtractor-ew</id>
+			<name>GitHub Packages</name>
+			<url>https://maven.pkg.github.com/champtc/txtractor-ew</url>
+		</repository>
+	</distributionManagement>
+
+	<!-- <distributionManagement>
 		<snapshotRepository>
 			<id>maven-snapshots</id>
 			<name>Nexus Snapshots</name>
@@ -68,7 +76,7 @@
 			<name>Nexus Releases</name>
 			<url>https://nexus.darklight.ai/repository/maven-releases/</url>
 		</repository>
-	</distributionManagement>
+	</distributionManagement> -->
 
   <properties>
     <tycho-version>2.7.5</tycho-version>
