@@ -29,6 +29,9 @@ jobs:
         distribution: 'temurin'
         java-version: '11'
         cache: maven
+        server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
+        server-username: champtc # env variable for username in deploy
+        server-password: ${{ secrets.GITHUB_TOKEN }} # env variable for token in deploy
 
     - name: Build with Maven
       run: mvn clean deploy -f ./pom.xml -Dtycho.localArtifacts=ignore -Dmaven.test.skip=true -Dtarget-platform=2022-03
