@@ -59,7 +59,7 @@
 
     <distributionManagement>
         <repository>
-            <id>txtractor-ew</id>
+            <id>ecf-ew</id>
             <name>GitHub Packages</name>
             <url>https://maven.pkg.github.com/champtc/ecf-ew</url>
         </repository>
